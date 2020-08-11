@@ -1,2 +1,2 @@
-worker: python333 server.py
+worker: python server.py
 

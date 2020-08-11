@@ -10,7 +10,7 @@ import cv2
 SEPARATOR=","
 BUFFER_SIZE= 4096
 s    = socket.socket()
-host = "http://donal234.pythonanywhere.com/"
+host = "127.0.0.1"
 port = 9999
 print(f"[+] Connecting to {host}:{port}")
 s.connect((host,port))
